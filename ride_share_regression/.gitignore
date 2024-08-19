@@ -1,0 +1,10 @@
+list_cat_cols_nom.txt
+list_cat_cols_ord.txt
+list_num_cols.txt
+model_encoder.pkl
+model_lin_reg.pkl
+model_ohe.pkl
+model_scaler.pkl
+rideshare_kaggle.csv
+X_inference.txt
+y_inference.txt
