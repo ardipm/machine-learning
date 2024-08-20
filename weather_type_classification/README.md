@@ -1,82 +1,67 @@
-# Machine-Learning
+# Weather Classification: Snowy vs. Not Snowy
 
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
-
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
-
-#### -- Project Status: [Active, On-Hold, Completed]
-
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+#### -- Project Status: Completed
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Data Preprocessing
+* Feature Engineering
+* Random Forest Classification
+* Cross-Validation
+* Model Tuning and Evaluation
+* Accuracy as a Metric
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Pandas
+* Scikit-Learn
+* Streamlit
+* Hugging Face
+* Matplotlib
+* Seaborn
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
-## Needs of this project
+This project is focused on classifying weather conditions as either snowy or not snowy. The classification model developed will help forecast snowy conditions and manage the availability of cold allergy medications, particularly in regions prone to severe cold allergies. 
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+### Data Source:
+The dataset used for this analysis is sourced from Kaggle's [Weather Classification Dataset](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma).
+
+### Objectives:
+1. **Develop a Classification Model:** Create a model to predict if the weather is snowy or not based on provided features.
+2. **Achieve High Accuracy:** Aim for at least 90% accuracy in classifying weather conditions.
+3. **Deploy the Model:** Implement the model using Streamlit and deploy it on Hugging Face for accessibility and usability.
+
+### Analysis and Modeling Work:
+1. **Exploratory Data Analysis (EDA):**
+   - Analyzed weather patterns and identified key factors influencing snowy conditions.
+   - Recommended targeted sales strategies for cold allergy medications based on weather data.
+
+2. **Model Development:**
+   - Used Random Forest Classification due to its effectiveness in handling imbalanced data and providing high accuracy.
+   - Achieved a high accuracy of 97.08%, indicating a well-fitting model.
+   - Conducted cross-validation and model tuning to refine performance.
+
+3. **Insights and Recommendations:**
+   - **Targeted Marketing:** Focus on mountain and inland areas during winter for cold allergy medication sales.
+   - **Seasonal Strategies:** Emphasize medication distribution in winter due to lower atmospheric pressure and higher likelihood of snowfall.
+   - **Product Development:** Develop medications for high humidity regions and consider product bundling for better customer satisfaction.
+
+4. **Challenges:**
+   - Addressing false negatives and false positives in the model to improve differentiation between cold and warm weather conditions.
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
+To reproduce or use this analysis, follow these steps:
+1. **Clone the Repository:** `git clone https://github.com/your-repo/weather-classification-snowy.git`
+2. **Install Dependencies:** Use `pip install -r requirements.txt` to install required Python packages.
+3. **Data Setup:** Download the dataset from [Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma) and place it in the appropriate directory.
+4. **Run Analysis:** Execute the Jupyter notebook or Python script to perform data preprocessing, model training, and predictions.
+5. **Deploy Model:** Use Streamlit to create a web app and deploy it on Hugging Face to make the model accessible for predictions.
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+
+For any questions or further information, please contact:
+
+- **Name:** [Ardiansyah Putra Mahadika]
+- **Email:** [ardiansyahpm224@gmail.com]
+- **LinkedIn:** [www.linkedin.com/in/ardiansyah-putra-m-17978318b]
