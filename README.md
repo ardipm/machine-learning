@@ -27,10 +27,6 @@ Explore the individual project folders to understand the datasets and code imple
 
 Contributions to enhance the projects or add new ones are welcome. Please fork the repository and submit a pull request with your proposed changes.
 
-## License
-
-This repository is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Contact
 
 For any questions or collaboration opportunities, please reach out via [GitHub](https://github.com/ardipm).
