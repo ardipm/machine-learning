@@ -71,7 +71,7 @@ This project analyzes investment behavior among young millennials, utilizing the
 * [Ardiansyah Putra Mahadika](https://github.com/ardipm) (@ardipm)
 
 #### Other Members:
-| Name | Slack Handle |
+| Name | Github Account |
 | ---- | ------------ |
 | [Divani Rafitya Amanda](https://github.com/divanirafitya) | @divanirafitya |
 | [Salman Hamka De Qais](https://github.com/salmanhamka) | @salmanhamka |
