@@ -23,10 +23,6 @@ Classify weather types using various classification models, aimed at improving t
 
 Explore the individual project folders to understand the datasets and code implementations. You can run the Jupyter Notebooks (.ipynb) provided in each folder to replicate the results or modify the code for further experimentation.
 
-## Contributions
-
-Contributions to enhance the projects or add new ones are welcome. Please fork the repository and submit a pull request with your proposed changes.
-
 ## Contact
 
 For any questions or collaboration opportunities, please reach out via [GitHub](https://github.com/ardipm).
