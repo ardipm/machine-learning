@@ -1,7 +1,5 @@
 # Personalized Finance Recommendation System
 
-This project is a part of the Data Science Working Group at Code for San Francisco. Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
-
 #### -- Project Status: Completed
 
 ## Project Intro/Objective
